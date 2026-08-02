@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "midgard:realistic_cherry_sapling"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cherry_sapling",
+    "count": 1
+  }
+}

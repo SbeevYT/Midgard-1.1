@@ -20,10 +20,10 @@
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.forest"
     },
-    "sky_color": 8037887,
+    "sky_color": 7907327,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 5880144
+    "grass_color": 10207836
   },
   "features": [
     [],
@@ -74,21 +74,34 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:forest_flowers",
       "minecraft:flower_default",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
       "minecraft:seagrass_normal"
     ],
     [
-      "midgard:birch_forest/birch_forest_fern",
-      "midgard:birch_forest/birch_forest_leaf_bush",
-      "midgard:birch_forest/birch_forest_universal_dead_bush",
       "midgard:birch_forest/birch_forest_dense_grass",
-      "midgard:birch_forest/birch_forest_shrub",
-      "midgard:birch_forest/birch_forest_azalea_bush",
+      "midgard:birch_forest/birch_forest_fern",
+
+      "midgard:birch_forest/birch_forest_bushy_maple_tree_1",
+      "midgard:birch_forest/birch_forest_bushy_maple_tree_2",
+      "midgard:birch_forest/birch_forest_bushy_maple_tree_3",
+      "midgard:birch_forest/birch_forest_bushy_maple_tree_4",
+      "midgard:birch_forest/birch_forest_bushy_oak_tree_1",
+      "midgard:birch_forest/birch_forest_bushy_oak_tree_2",
+      "midgard:birch_forest/birch_forest_bushy_oak_tree_3",
+      "midgard:birch_forest/birch_forest_huge_oak_tree_1",
+
+      "midgard:birch_forest/birch_forest_cone_pine_tree_1",
+      "midgard:birch_forest/birch_forest_pine_tree_1",
+      "midgard:birch_forest/birch_forest_spike_pine_tree_3",
+
+      "midgard:birch_forest/birch_forest_cone_spruce_tree_1",
+      "midgard:birch_forest/birch_forest_cone_spruce_tree_6",
+      "midgard:birch_forest/birch_forest_spike_spruce_tree_1",
+      "midgard:birch_forest/birch_forest_small_spike_spruce_tree_2",
+      "midgard:birch_forest/birch_forest_small_spike_spruce_tree_3",
 
       "midgard:birch_forest/birch_forest_small_birch_tree_1",
       "midgard:birch_forest/birch_forest_small_birch_tree_2",
@@ -96,8 +109,13 @@
       "midgard:birch_forest/birch_forest_small_birch_tree_4",
       "midgard:birch_forest/birch_forest_small_birch_tree_5",
       "midgard:birch_forest/birch_forest_small_birch_tree_6",
-      "midgard:birch_forest/birch_forest_tall_birch_tree_4",
-      "midgard:birch_forest/birch_forest_tall_birch_tree_6"
+      "midgard:birch_forest/birch_forest_small_birch_tree_7",
+      "midgard:birch_forest/birch_forest_tall_birch_tree_1",
+      "midgard:birch_forest/birch_forest_tall_birch_tree_2",
+      "midgard:birch_forest/birch_forest_tall_birch_tree_3",
+      "midgard:birch_forest/birch_forest_tall_birch_tree_5",
+      "midgard:birch_forest/birch_forest_tall_birch_tree_7",
+      "midgard:birch_forest/birch_forest_tall_birch_tree_8"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -128,23 +146,23 @@
         "minCount": 4,
         "weight": 10
       },
-            {
-        "type": "minecraft:wolf",
+      {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 2
+      },
+      {
+        "type": "minecraft:cow",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 5
+        "weight": 8
       },
-            {
+      {
         "type": "minecraft:rabbit",
         "maxCount": 3,
         "minCount": 2,
         "weight": 4
-      },
-      {
-        "type": "minecraft:fox",
-        "maxCount": 4,
-        "minCount": 2,
-        "weight": 8
       }
     ],
     "misc": [],

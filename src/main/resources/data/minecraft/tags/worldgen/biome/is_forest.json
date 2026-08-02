@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:grove",
+
+    "midgard:aspen_forest",
+    "midgard:autumnal_aspen_forest",
+    "midgard:autumnal_maple_forest",
+    "midgard:clearing",
+    "midgard:maple_forest",
+    "midgard:pine_forest",
+    "midgard:boreal_forest",
+    "midgard:sparse_aspen_forest",
+    "midgard:sparse_autumnal_aspen_forest",
+    "midgard:sparse_pine_forest"
+  ]
+}

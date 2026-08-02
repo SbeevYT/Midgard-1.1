@@ -1534,7 +1534,7 @@
           }
         },
         {
-          "biome": "midgard:clearing",
+          "biome": "minecraft:birch_forest",
           "parameters": {
             "temperature": [
               -0.15,
@@ -2078,75 +2078,11 @@
           }
         },
         {
-          "biome": "midgard:westlands",
-          "parameters": {
-            "temperature": [
-              0.30,
-              0.35
-            ],
-            "humidity": [
-              -1,
-              0.45
-            ],
-            "continentalness": [
-              -0.155,
-              1
-            ],
-            "erosion":
-            [
-              -0.01,
-              0.55
-            ],
-            "weirdness":
-            [
-              -1,
-              -0.06
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "offset": 0.0
-          }
-        },
-        {
-          "biome": "midgard:westlands",
-          "parameters": {
-            "temperature": [
-              0.30,
-              0.35
-            ],
-            "humidity": [
-              -1,
-              0.45
-            ],
-            "continentalness": [
-              -0.155,
-              1
-            ],
-            "erosion":
-            [
-              -0.01,
-              0.55
-            ],
-            "weirdness":
-            [
-              0.06,
-              1
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "offset": 0.0
-          }
-        },
-        {
           "biome": "midgard:sparse_pine_forest",
           "parameters": {
             "temperature": [
               0.15,
-              0.35
+              0.30
             ],
             "humidity": [
               0.10,
@@ -2178,7 +2114,7 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.35
+              0.30
             ],
             "humidity": [
               0.10,
@@ -2210,7 +2146,7 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.35
+              0.30
             ],
             "humidity": [
               0.40,
@@ -2242,7 +2178,7 @@
           "parameters": {
             "temperature": [
               0.15,
-              0.35
+              0.30
             ],
             "humidity": [
               0.40,
@@ -2324,6 +2260,230 @@
             "weirdness":
             [
               -1,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:badlands",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              -1,
+              0.0
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              -1,
+              -0.06
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:badlands",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              -1,
+              0.0
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              0.06,
+              0.51
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:wooded_badlands",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              -1,
+              0.0
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              0.51,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:steppe",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              0.0,
+              0.45
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              -1,
+              -0.06
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:steppe",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              0.0,
+              0.45
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              0.06,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:sparse_pine_forest",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              0.45,
+              1
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              -1,
+              -0.06
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:sparse_pine_forest",
+          "parameters": {
+            "temperature": [
+              0.30,
+              0.35
+            ],
+            "humidity": [
+              0.45,
+              1
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.01,
+              0.55
+            ],
+            "weirdness":
+            [
+              0.06,
               1
             ],
             "depth": [
@@ -2590,7 +2750,7 @@
           }
         },
         {
-          "biome": "midgard:westlands",
+          "biome": "minecraft:badlands",
           "parameters": {
             "temperature": [
               0.30,
@@ -2914,14 +3074,14 @@
           "parameters": {
             "temperature": [
               0.35,
-              0.60
+              0.50
             ],
             "humidity": [
-              0.25,
+              0,
               1
             ],
             "continentalness": [
-              0.00,
+              -0.155,
               1
             ],
             "erosion":
@@ -2946,10 +3106,202 @@
           "parameters": {
             "temperature": [
               0.35,
+              0.50
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              0,
+              1
+            ],
+            "weirdness":
+            [
+              0.06,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:eroded_badlands",
+          "parameters": {
+            "temperature": [
+              0.35,
+              0.50
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              0,
+              1
+            ],
+            "weirdness":
+            [
+              -1,
+              -0.51
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:badlands",
+          "parameters": {
+            "temperature": [
+              0.35,
+              0.50
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              0,
+              1
+            ],
+            "weirdness":
+            [
+              -0.51,
+              -0.06
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:badlands",
+          "parameters": {
+            "temperature": [
+              0.35,
+              0.50
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              0,
+              1
+            ],
+            "weirdness":
+            [
+              0.06,
+              0.51
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:wooded_badlands",
+          "parameters": {
+            "temperature": [
+              0.35,
+              0.50
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              0,
+              1
+            ],
+            "weirdness":
+            [
+              0.51,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:windswept_savanna",
+          "parameters": {
+            "temperature": [
+              0.50,
               0.60
             ],
             "humidity": [
-              0.25,
+              0,
+              1
+            ],
+            "continentalness": [
+              0.00,
+              1
+            ],
+            "erosion":
+            [
+              0,
+              1
+            ],
+            "weirdness":
+            [
+              -1,
+              -0.06
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:windswept_savanna",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              0,
               1
             ],
             "continentalness": [
@@ -2974,18 +3326,18 @@
           }
         },
         {
-          "biome": "midgard:westlands",
+          "biome": "midgard:xeric_shrubland",
           "parameters": {
             "temperature": [
-              0.35,
+              0.50,
               0.60
             ],
             "humidity": [
-              -0.05,
-              0.25
+              -1,
+              0
             ],
             "continentalness": [
-              -0.155,
+              0.00,
               1
             ],
             "erosion":
@@ -3006,82 +3358,18 @@
           }
         },
         {
-          "biome": "midgard:westlands",
+          "biome": "midgard:xeric_shrubland",
           "parameters": {
             "temperature": [
-              0.35,
+              0.50,
               0.60
             ],
             "humidity": [
-              -0.05,
-              0.25
-            ],
-            "continentalness": [
-              -0.155,
-              1
-            ],
-            "erosion":
-            [
-              0,
-              1
-            ],
-            "weirdness":
-            [
-              0.06,
-              1
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "offset": 0.0
-          }
-        },
-        {
-          "biome": "minecraft:eroded_badlands",
-          "parameters": {
-            "temperature": [
-              0.35,
-              0.60
-            ],
-            "humidity": [
-              -0.25,
-              -0.05
-            ],
-            "continentalness": [
-              -0.155,
-              1
-            ],
-            "erosion":
-            [
-              0,
-              1
-            ],
-            "weirdness":
-            [
               -1,
-              -0.06
-            ],
-            "depth": [
-              -0.005,
               0
             ],
-            "offset": 0.0
-          }
-        },
-        {
-          "biome": "minecraft:eroded_badlands",
-          "parameters": {
-            "temperature": [
-              0.35,
-              0.60
-            ],
-            "humidity": [
-              -0.25,
-              -0.05
-            ],
             "continentalness": [
-              -0.155,
+              0.00,
               1
             ],
             "erosion":
@@ -3106,75 +3394,11 @@
           "parameters": {
             "temperature": [
               0.35,
-              0.60
+              0.50
             ],
             "humidity": [
               -1,
-              -0.25
-            ],
-            "continentalness": [
-              -0.155,
-              1
-            ],
-            "erosion":
-            [
-              0,
-              1
-            ],
-            "weirdness":
-            [
-              -1,
-              -0.06
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "offset": 0.0
-          }
-        },
-        {
-          "biome": "minecraft:badlands",
-          "parameters": {
-            "temperature": [
-              0.35,
-              0.60
-            ],
-            "humidity": [
-              -1,
-              -0.25
-            ],
-            "continentalness": [
-              -0.155,
-              1
-            ],
-            "erosion":
-            [
-              0,
-              1
-            ],
-            "weirdness":
-            [
-              0.06,
-              1
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "offset": 0.0
-          }
-        },
-        {
-          "biome": "minecraft:wooded_badlands",
-          "parameters": {
-            "temperature": [
-              0.35,
-              0.60
-            ],
-            "humidity": [
-              -1,
-              -0.10
+              -0.15
             ],
             "continentalness": [
               -0.155,
@@ -3188,6 +3412,38 @@
             "weirdness":
             [
               -1,
+              0
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:wooded_badlands",
+          "parameters": {
+            "temperature": [
+              0.35,
+              0.50
+            ],
+            "humidity": [
+              -1,
+              -0.15
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              0,
               1
             ],
             "depth": [
@@ -3202,10 +3458,10 @@
           "parameters": {
             "temperature": [
               0.35,
-              0.60
+              0.50
             ],
             "humidity": [
-              -0.10,
+              -0.15,
               0.40
             ],
             "continentalness": [
@@ -3234,7 +3490,7 @@
           "parameters": {
             "temperature": [
               0.35,
-              0.60
+              0.50
             ],
             "humidity": [
               0.40,
@@ -3266,7 +3522,7 @@
           "parameters": {
             "temperature": [
               0.35,
-              0.60
+              0.50
             ],
             "humidity": [
               0.45,
@@ -3298,10 +3554,10 @@
           "parameters": {
             "temperature": [
               0.35,
-              0.60
+              0.50
             ],
             "humidity": [
-              0.25,
+              0.45,
               1
             ],
             "continentalness": [
@@ -3330,10 +3586,10 @@
           "parameters": {
             "temperature": [
               0.35,
-              0.60
+              0.50
             ],
             "humidity": [
-              0.25,
+              0.45,
               1
             ],
             "continentalness": [
@@ -3362,11 +3618,11 @@
           "parameters": {
             "temperature": [
               0.35,
-              0.60
+              0.50
             ],
             "humidity": [
               -1,
-              0.25
+              0.40
             ],
             "continentalness": [
               -0.155,
@@ -3394,10 +3650,298 @@
           "parameters": {
             "temperature": [
               0.35,
+              0.50
+            ],
+            "humidity": [
+              0.40,
+              1
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -1,
+              -0.51
+            ],
+            "weirdness":
+            [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:xeric_shrubland",
+          "parameters": {
+            "temperature": [
+              0.50,
               0.60
             ],
             "humidity": [
-              0.25,
+              -1,
+              0.33
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:savanna_plateau",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              0.33,
+              0.40
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:sparse_jungle",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              0.40,
+              0.45
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:jungle",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              0.45,
+              1
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              -1,
+              0
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:jungle",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              0.45,
+              1
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              0,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:bamboo_jungle",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              0.45,
+              1
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -0.51,
+              -0.01
+            ],
+            "weirdness":
+            [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:arid_peaks",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              -1,
+              -0.34
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -1,
+              -0.51
+            ],
+            "weirdness":
+            [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:stony_peaks",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              -0.34,
+              0.45
+            ],
+            "continentalness": [
+              -0.155,
+              1
+            ],
+            "erosion":
+            [
+              -1,
+              -0.51
+            ],
+            "weirdness":
+            [
+              -1,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "minecraft:jagged_peaks",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              0.45,
               1
             ],
             "continentalness": [
@@ -3443,8 +3987,8 @@
             ],
             "weirdness":
             [
-              -1,
-              1
+              -2,
+              2
             ],
             "depth": [
               -0.005,
@@ -3454,7 +3998,7 @@
           }
         },
         {
-          "biome": "minecraft:stony_peaks",
+          "biome": "midgard:arid_peaks",
           "parameters": {
             "temperature": [
               0.60,
@@ -3490,11 +4034,11 @@
           "parameters": {
             "temperature": [
               -0.55,
-              0.35
+              0.50
             ],
             "humidity": [
               -1,
-              1
+              0
             ],
             "continentalness": [
               -0.18,
@@ -3520,11 +4064,11 @@
           "parameters": {
             "temperature": [
               -0.55,
-              0.35
+              0.50
             ],
             "humidity": [
               -1,
-              1
+              0
             ],
             "continentalness": [
               -0.18,
@@ -3536,7 +4080,7 @@
             ],
             "weirdness": [
               0.06,
-              1
+              0.44
             ],
             "depth": [
               -0.005,
@@ -3549,12 +4093,12 @@
           "biome": "midgard:white_shore",
           "parameters": {
             "temperature": [
-              0.35,
-              0.70
+              -0.55,
+              0.50
             ],
             "humidity": [
               -1,
-              0.25
+              1
             ],
             "continentalness": [
               -0.18,
@@ -3565,37 +4109,7 @@
               1
             ],
             "weirdness": [
-              -1,
-              -0.06
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "offset": 0.0
-          }
-        },
-        {
-          "biome": "midgard:white_shore",
-          "parameters": {
-            "temperature": [
-              0.35,
-              0.70
-            ],
-            "humidity": [
-              -1,
-              0.25
-            ],
-            "continentalness": [
-              -0.18,
-              -0.155
-            ],
-            "erosion": [
-              -0.2,
-              1
-            ],
-            "weirdness": [
-              0.06,
+              0.44,
               1
             ],
             "depth": [
@@ -3609,11 +4123,11 @@
           "biome": "minecraft:mangrove_swamp",
           "parameters": {
             "temperature": [
-              0.35,
-              0.70
+              0.50,
+              0.60
             ],
             "humidity": [
-              0.25,
+              0,
               1
             ],
             "continentalness": [
@@ -3639,12 +4153,72 @@
           "biome": "minecraft:mangrove_swamp",
           "parameters": {
             "temperature": [
-              0.35,
-              0.70
+              0.50,
+              0.60
             ],
             "humidity": [
-              0.25,
+              0,
               1
+            ],
+            "continentalness": [
+              -0.18,
+              0.00
+            ],
+            "erosion": [
+              0,
+              1
+            ],
+            "weirdness": [
+              0.06,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:monsoon_forest",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -0.18,
+              0.00
+            ],
+            "erosion": [
+              0,
+              1
+            ],
+            "weirdness": [
+              -1,
+              -0.06
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "midgard:monsoon_forest",
+          "parameters": {
+            "temperature": [
+              0.50,
+              0.60
+            ],
+            "humidity": [
+              -1,
+              0
             ],
             "continentalness": [
               -0.18,

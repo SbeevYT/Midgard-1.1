@@ -21,6 +21,10 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.SHRUB.get());
                         output.accept(ModBlocks.BEACH_GRASS.get());
+                        output.accept(ModBlocks.GOLDEN_GRASS.get());
+
+                        output.accept(ModBlocks.GOLDEN_SAND.get());
+                        output.accept(ModBlocks.WARM_SAND.get());
 
                         output.accept(ModBlocks.WHITE_SAND.get());
                         output.accept(ModBlocks.WHITE_SANDSTONE.get());
@@ -149,7 +153,11 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.REALISTIC_OAK_SAPLING.get());
                         output.accept(ModBlocks.REALISTIC_BIRCH_SAPLING.get());
                         output.accept(ModBlocks.REALISTIC_SPRUCE_SAPLING.get());
+                        output.accept(ModBlocks.REALISTIC_JUNGLE_SAPLING.get());
+                        output.accept(ModBlocks.REALISTIC_ACACIA_SAPLING.get());
                         output.accept(ModBlocks.REALISTIC_DARK_OAK_SAPLING.get());
+                        output.accept(ModBlocks.REALISTIC_CHERRY_SAPLING.get());
+
 
                     })
                     .build());

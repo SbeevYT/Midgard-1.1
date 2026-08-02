@@ -8,6 +8,9 @@
         "minecraft:packed_mud",
         "minecraft:rooted_dirt",
         "minecraft:dirt_path",
-        "minecraft:moss_block"
+        "minecraft:moss_block",
+        "midgard:golden_sand",
+        "minecraft:red_sand",
+        "midgard:warm_sand"
     ]
 }

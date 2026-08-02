@@ -1,0 +1,11 @@
+{
+   "replace": false,
+   "values": {
+      "treeplacer:all_biomes" : [
+         {
+            "feature" : "midgard:birch/small_birch_tree_1",
+            "weight" : 1
+         }
+      ]
+   }
+}

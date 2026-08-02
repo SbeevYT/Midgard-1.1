@@ -10,7 +10,7 @@
   "effects": {
     "fog_color": 12638463,
     "foliage_color": 10387789,
-    "grass_color": 11048794,
+    "grass_color": 15119465,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -40,6 +40,7 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
+    [],
     [],
     [
       "minecraft:ore_dirt",
@@ -73,32 +74,44 @@
       "minecraft:disk_gravel"
     ],
     [],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
+    [],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_grass_badlands",
-      "minecraft:patch_dead_bush_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_badlands",
-      "minecraft:patch_cactus_decorated"
-    ],
-    [
-      "midgard:wooded_badlands/wooded_badlands_pine_tree_1",
-      "midgard:wooded_badlands/wooded_badlands_cone_pine_tree_1",
-      "midgard:wooded_badlands/wooded_badlands_cone_pine_tree_2",
-      "midgard:wooded_badlands/wooded_badlands_cone_pine_tree_3",
-      "midgard:wooded_badlands/wooded_badlands_cone_pine_tree_4",
-      "midgard:wooded_badlands/wooded_badlands_small_rocks"
+
+      "midgard:wooded_badlands/wooded_badlands_dense_dead_bush",
+      "midgard:wooded_badlands/wooded_badlands_dense_grass",
+      "midgard:wooded_badlands/wooded_badlands_pine_leaf_bush",
+      "midgard:wooded_badlands/wooded_badlands_small_rocks",
+
+      "midgard:wooded_badlands/wooded_badlands_bush_pine_tree_1",
+      "midgard:wooded_badlands/wooded_badlands_bush_pine_tree_2",
+      "midgard:wooded_badlands/wooded_badlands_bush_pine_tree_3",
+      "midgard:wooded_badlands/wooded_badlands_bush_pine_tree_4",
+      "midgard:wooded_badlands/wooded_badlands_bush_pine_tree_5",
+      "midgard:wooded_badlands/wooded_badlands_bush_pine_tree_6",
+
+      "midgard:wooded_badlands/wooded_badlands_tiny_pine_tree_1",
+      "midgard:wooded_badlands/wooded_badlands_tiny_pine_tree_2",
+      "midgard:wooded_badlands/wooded_badlands_tiny_pine_tree_3",
+      "midgard:wooded_badlands/wooded_badlands_tiny_pine_tree_4",
+
+      "midgard:wooded_badlands/wooded_badlands_small_pine_tree_1",
+      "midgard:wooded_badlands/wooded_badlands_small_pine_tree_2",
+      "midgard:wooded_badlands/wooded_badlands_small_pine_tree_3",
+      "midgard:wooded_badlands/wooded_badlands_small_pine_tree_4",
+
+      "midgard:wooded_badlands/wooded_badlands_dirt_pine_tree_1",
+      "midgard:wooded_badlands/wooded_badlands_dirt_pine_tree_2",
+      "midgard:wooded_badlands/wooded_badlands_dirt_pine_tree_3",
+      "midgard:wooded_badlands/wooded_badlands_dirt_pine_tree_4"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "has_precipitation": false,
+  "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
     "ambient": [

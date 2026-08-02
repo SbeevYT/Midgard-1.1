@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "midgard:block/warm_sand_0"
+      },
+      {
+        "model": "midgard:block/warm_sand_0"
+      },
+      {
+        "model": "midgard:block/warm_sand_0"
+      }
+    ]
+  }
+}

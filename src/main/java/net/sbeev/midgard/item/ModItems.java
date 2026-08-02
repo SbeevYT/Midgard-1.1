@@ -14,9 +14,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Midgard.MOD_ID);
 
-    public static final RegistryObject<Item> FRIED_EGG = ITEMS.register("fried_egg",
-            () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> PINE_SIGN = ITEMS.register("pine_sign",
             () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.PINE_SIGN.get(), ModBlocks.PINE_WALL_SIGN.get()));
     public static final RegistryObject<Item> PINE_HANGING_SIGN = ITEMS.register("pine_hanging_sign",

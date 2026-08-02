@@ -21,7 +21,7 @@
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.forest"
     },
-    "sky_color": 13291758,
+    "sky_color": 7907327,
     "water_color": 5929904,
     "water_fog_color": 329011,
     "grass_color": 12959322
@@ -86,7 +86,24 @@
     [
       "midgard:sparse_pine_forest/sparse_pine_forest_small_rocks",
       "midgard:sparse_pine_forest/sparse_pine_forest_dense_grass",
-      
+
+      "midgard:sparse_pine_forest/sparse_pine_forest_bush_pine_tree_1",
+      "midgard:sparse_pine_forest/sparse_pine_forest_bush_pine_tree_2",
+      "midgard:sparse_pine_forest/sparse_pine_forest_bush_pine_tree_3",
+      "midgard:sparse_pine_forest/sparse_pine_forest_bush_pine_tree_4",
+      "midgard:sparse_pine_forest/sparse_pine_forest_bush_pine_tree_5",
+      "midgard:sparse_pine_forest/sparse_pine_forest_bush_pine_tree_6",
+
+      "midgard:sparse_pine_forest/sparse_pine_forest_tiny_pine_tree_1",
+      "midgard:sparse_pine_forest/sparse_pine_forest_tiny_pine_tree_2",
+      "midgard:sparse_pine_forest/sparse_pine_forest_tiny_pine_tree_3",
+      "midgard:sparse_pine_forest/sparse_pine_forest_tiny_pine_tree_4",
+
+      "midgard:sparse_pine_forest/sparse_pine_forest_small_pine_tree_1",
+      "midgard:sparse_pine_forest/sparse_pine_forest_small_pine_tree_2",
+      "midgard:sparse_pine_forest/sparse_pine_forest_small_pine_tree_3",
+      "midgard:sparse_pine_forest/sparse_pine_forest_small_pine_tree_4",
+
       "midgard:sparse_pine_forest/sparse_pine_forest_pine_tree_1",
       "midgard:sparse_pine_forest/sparse_pine_forest_pine_tree_2",
       "midgard:sparse_pine_forest/sparse_pine_forest_pine_tree_3",

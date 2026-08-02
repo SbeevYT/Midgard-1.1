@@ -9,10 +9,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.grower.BirchTreeGrower;
-import net.minecraft.world.level.block.grower.DarkOakTreeGrower;
-import net.minecraft.world.level.block.grower.OakTreeGrower;
-import net.minecraft.world.level.block.grower.SpruceTreeGrower;
+import net.minecraft.world.level.block.grower.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
@@ -70,9 +67,16 @@ public class ModBlocks {
     public static final RegistryObject<Block> CHISELED_WHITE_SANDSTONE = registerBlock("chiseled_white_sandstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CHISELED_SANDSTONE)));
 
+    public static final RegistryObject<Block> GOLDEN_SAND = registerBlock("golden_sand",
+            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND)));
+    public static final RegistryObject<Block> WARM_SAND = registerBlock("warm_sand",
+            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND)));
+
     public static final RegistryObject<Block> SHRUB = registerBlock("shrub",
             () -> new BushBlock(BlockBehaviour.Properties.copy(Blocks.FERN).noOcclusion().sound(SoundType.GRASS)));
     public static final RegistryObject<Block> BEACH_GRASS = registerBlock("beach_grass",
+            () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.DEAD_BUSH).noOcclusion().sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> GOLDEN_GRASS = registerBlock("golden_grass",
             () -> new DeadBushBlock(BlockBehaviour.Properties.copy(Blocks.DEAD_BUSH).noOcclusion().sound(SoundType.GRASS)));
 
     public static final RegistryObject<Block> BROWN_OAK_LEAVES = registerBlock("brown_oak_leaves",
@@ -216,6 +220,12 @@ public class ModBlocks {
             () -> new SaplingBlock(new SpruceTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
     public static final RegistryObject<Block> REALISTIC_DARK_OAK_SAPLING = registerBlock("realistic_dark_oak_sapling",
             () -> new SaplingBlock(new DarkOakTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> REALISTIC_ACACIA_SAPLING = registerBlock("realistic_acacia_sapling",
+            () -> new SaplingBlock(new AcaciaTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> REALISTIC_CHERRY_SAPLING = registerBlock("realistic_cherry_sapling",
+            () -> new SaplingBlock(new CherryTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> REALISTIC_JUNGLE_SAPLING = registerBlock("realistic_jungle_sapling",
+            () -> new SaplingBlock(new JungleTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     public static final RegistryObject<Block> PINE_LOG = registerBlock("pine_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(3f)));

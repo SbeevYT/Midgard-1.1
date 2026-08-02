@@ -17,7 +17,8 @@
     },
     "sky_color": 7254527,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "grass_color": 16763220
   },
   "features": [
     [],
@@ -71,17 +72,24 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass",
-      "minecraft:trees_savanna",
       "minecraft:flower_warm",
       "minecraft:patch_grass_savanna",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+
+      "midgard:savanna_plateau/savanna_plateau_small_rocks",
+      "midgard:savanna_plateau/savanna_plateau_dense_dead_bush",
+      "midgard:savanna_plateau/savanna_plateau_mangrove_roots_bush",
+      "midgard:savanna_plateau/savanna_plateau_sparse_golden_grass",
+
+      "midgard:savanna_plateau/savanna_plateau_shrub_acacia_tree_3",
+      "midgard:savanna_plateau/savanna_plateau_shrub_acacia_tree_4",
+      "midgard:savanna_plateau/savanna_plateau_shrub_acacia_tree_5",
+      "midgard:savanna_plateau/savanna_plateau_small_acacia_tree_1",
+      "midgard:savanna_plateau/savanna_plateau_small_acacia_tree_2"
     ],
-    [
-      "midgard:savanna_plateau/savanna_plateau_small_rocks"
-    ],
+    [],
     [
       "minecraft:freeze_top_layer"
     ]

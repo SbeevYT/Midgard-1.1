@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:taiga",
+    "minecraft:snowy_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+
+    "midgard:boreal_forest",
+    "midgard:pine_forest"
+  ]
+}

@@ -6,11 +6,9 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.0,
+  "downfall": 0.6,
   "effects": {
-    "fog_color": 12638463,
-    "foliage_color": 10387789,
-    "grass_color": 9470285,
+    "fog_color": 13291758,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,17 +19,17 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.badlands"
+      "sound": "minecraft:music.overworld.forest"
     },
-    "sky_color": 7254527,
+    "sky_color": 7907327,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "grass_color": 15119465,
+    "foliage_color": 15119465
   },
   "features": [
-    [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
@@ -40,8 +38,6 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
-    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -68,31 +64,36 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:ore_gold_extra",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_grass_badlands",
-      "minecraft:patch_dead_bush_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_badlands",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_cactus_decorated"
+      "minecraft:seagrass_normal"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "midgard:badlands/badlands_dense_dead_bush",
+      "midgard:badlands/badlands_dense_grass",
+      "midgard:badlands/badlands_small_rocks",
+      "midgard:badlands/badlands_pine_leaf_bush",
+
+      "midgard:badlands/badlands_bush_pine_tree_1",
+      "midgard:badlands/badlands_bush_pine_tree_2",
+      "midgard:badlands/badlands_bush_pine_tree_3",
+      "midgard:badlands/badlands_bush_pine_tree_4",
+      "midgard:badlands/badlands_bush_pine_tree_5",
+      "midgard:badlands/badlands_bush_pine_tree_6"
     ]
   ],
-  "has_precipitation": false,
+  "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
     "ambient": [
@@ -104,7 +105,20 @@
       }
     ],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
+      }
+    ],
     "misc": [],
     "monster": [
       {
@@ -114,7 +128,7 @@
         "weight": 100
       },
       {
-        "type": "minecraft:zombie",
+        "type": "minecraft:husk",
         "maxCount": 4,
         "minCount": 4,
         "weight": 95

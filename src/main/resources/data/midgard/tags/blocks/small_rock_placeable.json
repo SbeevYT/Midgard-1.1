@@ -17,6 +17,9 @@
         "minecraft:tuff",
         "minecraft:stone",
         "minecraft:calcite",
-        "minecraft:dripstone_block"
+        "minecraft:dripstone_block",
+        "minecraft:sand",
+        "midgard:golden_sand",
+        "midgard:warm_sand"
     ]
 }

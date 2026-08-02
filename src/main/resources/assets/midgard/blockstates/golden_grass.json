@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "midgard:block/golden_grass_0"
+      },
+      {
+        "model": "midgard:block/golden_grass_1"
+      },
+      {
+        "model": "midgard:block/golden_grass_1"
+      },
+      {
+        "model": "midgard:block/golden_grass_2"
+      }
+    ]
+  }
+}

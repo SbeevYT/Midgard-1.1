@@ -1,8 +1,7 @@
 {
-  "item.midgard.fried_egg": "Fried Egg",
-
   "block.midgard.shrub": "Shrub",
   "block.midgard.beach_grass": "Beach Grass",
+  "block.midgard.golden_grass": "Golden Grass",
   "block.midgard.leaf_pile": "Leaf Pile",
   "block.midgard.maple_leaf_pile": "Maple Leaf Pile",
   "block.midgard.autumnal_maple_leaf_pile": "Autumnal Maple Leaf Pile",
@@ -23,6 +22,9 @@
   "block.midgard.smooth_white_sandstone_slab": "Smooth White Sandstone Slab",
   "block.midgard.smooth_white_sandstone_stairs": "Smooth White Sandstone Stairs",
   "block.midgard.chiseled_white_sandstone": "Chiseled White Sandstone",
+
+  "block.midgard.golden_sand": "Golden Sand",
+  "block.midgard.warm_sand": "Warm Sand",
 
   "block.midgard.pine_log": "Pine Log",
   "block.midgard.stripped_pine_log": "Stripped Pine Log",
@@ -134,17 +136,23 @@
   "block.midgard.realistic_birch_sapling": "Realistic Birch Sapling",
   "block.midgard.realistic_spruce_sapling": "Realistic Spruce Sapling",
   "block.midgard.realistic_dark_oak_sapling": "Realistic Dark Oak Sapling",
+  "block.midgard.realistic_acacia_sapling": "Realistic Acacia Sapling",
+  "block.midgard.realistic_cherry_sapling": "Realistic Cherry Sapling",
+  "block.midgard.realistic_jungle_sapling": "Realistic Jungle Sapling",
 
   "creativetab.midgard_tab": "Midgard",
 
+  "biome.midgard.arid_peaks": "Arid Peaks",
   "biome.midgard.aspen_forest": "Aspen Forest",
   "biome.midgard.autumnal_aspen_forest": "Autumnal Aspen Forest",
   "biome.midgard.autumnal_maple_forest": "Autumnal Maple Forest",
   "biome.midgard.boreal_forest": "Boreal Forest",
   "biome.midgard.clearing": "Clearing",
-  "biome.midgard.desert_shrubland": "Desert Shrubland",
+  "biome.midgard.dunes": "Dunes",
+  "biome.midgard.eroded_steppe": "Eroded Steppe",
   "biome.midgard.forest_edge": "Forest Edge",
   "biome.midgard.maple_forest": "Maple Forest",
+  "biome.midgard.monsoon_forest": "Monsoon Forest",
   "biome.midgard.pine_forest": "Pine Forest",
   "biome.midgard.riverbank": "Riverbank",
   "biome.midgard.snowy_windswept_hills": "Snowy Windswept Hills",
@@ -153,5 +161,6 @@
   "biome.midgard.sparse_pine_forest": "Sparse Pine Forest",
   "biome.midgard.steppe": "Steppe",
   "biome.midgard.westlands": "Westlands",
-  "biome.midgard.white_shore": "White Shore"
+  "biome.midgard.white_shore": "White Shore",
+  "biome.midgard.xeric_shrubland": "Xeric Shrubland"
 }
